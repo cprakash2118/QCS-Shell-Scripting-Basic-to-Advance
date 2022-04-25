@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "******************************************"
+echo -e "Hostname:\t\t $(hostname)"
+echo -e "Date    :\t\t $(date)"
+echo -e "uptime  :\t\t $(uptime)"
+echo -e "Host IP :\t\t $(hostname -I | awk -F" " '{print $2}')"
+echo "******************************************"
