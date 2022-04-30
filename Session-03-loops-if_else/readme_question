@@ -1,0 +1,50 @@
+1) Prime No:
+   number01 (given no)
+   
+   Task:- Check if given number is prime or not?
+    1) When single number given (only one number as input)
+	2) Prime number between the given range.
+	
+	
+	- If-else, nested if-else, Case , Loops (for,while,until) and functions.
+	
+prime no (SIngle)
+1) Using for loop
+2) Using while loop 
+3) Using until loop 
+
+
+prime no (Range between numbers)
+1) using for(outer loop) and for (inner loop). - completed
+2) using for(outer loop) and while (inner loop).
+3) using for(outer loop) and until (inner loop).
+4) using while(outer loop) and for (inner loop).
+5) using while(outer loop) and while (inner loop).
+6) using while(outer loop) and until (inner loop).
+7) using until(outer loop) and for (inner loop).
+8) using until(outer loop) and while (inner loop).
+9) using until(outer loop) and until (inner loop).
+
+Function - prime no (Range between numbers)
+
+----
+Logic 
+GIven number as input (num1)
+half_the_number=num1/2 
+count=2 (Divided by 1 and itself)
+loop from (2..last numner)
+if any number able to fully divide the num1 the increase counter 
+ count=3 (check if count=3 then break the loop).
+
+Eg:
+  num1=13 
+  
+  half_the_number=6 (6.5) 
+  count=2
+  for one_by_one in $(eval echo "{2..${half_the_number}}")
+  
+  num1/ 2 = 
+  num1/ 3 = 
+  num1/ 4 =
+  num1/ 5 =
+  num1/ 6 =
