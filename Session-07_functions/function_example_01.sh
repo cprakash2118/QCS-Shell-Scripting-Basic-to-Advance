@@ -8,3 +8,6 @@ function fun2() {
 function fun3() {
 	echo "This is functon 3rd"
 }
+fun4() {
+	echo "This is functon 4th"
+}

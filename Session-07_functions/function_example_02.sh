@@ -20,3 +20,12 @@ function fun3() {
 	echo "This is functon 3rd, with 2nd argument - $num2"
 	echo "This is functon 3rd, with 3nd argument - $num3"
 }
+function sep_star () {
+ echo
+ for x in {1..50}
+  do
+  echo -n "*"
+ done
+ echo
+ }
+	

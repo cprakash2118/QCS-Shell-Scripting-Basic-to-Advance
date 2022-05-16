@@ -21,9 +21,6 @@ done
  fi
 }
 
-
-
-
 ##### This is 2nd Function using while
 function prime_no_while() {
 num_fun1=$1
@@ -45,8 +42,6 @@ done
     return 0
  fi
 } 
-
-
 
 
 ##### This is 3rd Function using until
